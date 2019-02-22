@@ -1,0 +1,193 @@
+body {
+    direction: rtl;
+}
+
+.page-content .side-menu {
+    right: 0;
+    left: auto;
+}
+
+.page-content .side-menu .head .title .icon i {
+    transform: rotate(180deg);
+    display: block;
+    line-height: 48px;
+}
+
+.page-content .content {margin-left: 0;margin-right: auto;}
+
+.sell-steps-page .offer-details ,
+.sell-steps-page .offer-details .field .address-box .data ,
+.sell-steps-page .offer-details .seller-notes ,
+.sell-steps-page .product-info .data ,
+.product-modal ,
+.Listing-cats-page .products-wrapper .product-box .data ,
+.Listing-cats-page .cats-wrapper .cat-box h3 ,
+.page-filter-head .text-box ,
+.promotions-page .promotion-box .data ,
+.manage-campaigns .manage-content .join-us .package ul ,
+.manage-campaigns .manage-content .list ,
+.withdraw-alert ,
+.tabs-wrapper .tabs-body .items-table ,
+.feedback-details ,
+.feedback-top .feedback-percent ,
+.inventory-wrapper .box ,
+.list-page-header .adv-cat  ,
+.tabs-wrapper .tabs-list ,
+.page-content .side-menu .collapse-box ,
+.page-content .side-menu .head .icon ,
+.top-header .user-action .user-block .droplist li ,
+.chars-wrapper .title h3 
+{
+    text-align: right;
+}
+
+
+
+.page-content .side-menu .collapse-box a {
+    padding: 10px 50px 10px 15px;
+}
+
+.page-filter-head .search-box .search-block form .form-control {
+    border-radius: 0 5px 5px 0;
+    border-right: 1px solid #ced4da;
+    border-left: 0;
+}
+
+.page-filter-head .search-box .search-block form .show-adv-search {
+    left: 65px;
+    right: auto;
+}
+
+.page-filter-head .search-box .search-block form .btn-link {
+    border-radius: 5px 0 0 5px;
+}
+
+.upload-wrapper form .upload {
+    border-right: 0;
+    border-left: 1px solid #f7f7f7;
+}
+
+.tabs-wrapper .tabs-list a:first-child {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 0;
+    margin-right: 0;
+}
+
+.tabs-wrapper .tabs-list a:last-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 5px;
+}
+
+.tabs-wrapper .tabs-list a {
+    margin-left: 0;
+    margin-right: -5px;
+}
+
+.tabs-wrapper .tabs-body {
+    border-radius: 5px 0 5px 5px;
+}
+
+.list-page-header .search-block form .form-control {
+    border-radius: 0 5px 5px 0;
+}
+
+.list-page-header .search-block form .btn-link {
+    border-radius: 5px 0 0 5px;
+}
+
+.search-categ {
+    right: 0;
+    left: auto;
+}
+
+.search-categ ul li {
+    background: url(../images/treeview-default-line-2.gif) 0 0 no-repeat;
+    padding: 0px 16px 3px 0;
+    background-position: right;
+    position: relative;
+}
+
+.search-categ ul p .plus::before {
+    left: auto;
+    right: .5px;
+}
+
+.search-categ ul p .plus::after {
+    left: auto;
+}
+
+.search-categ ul li::after {
+    content: "";
+    width: 6px;
+    height: 1px;
+    border-bottom: 1px dashed #ced4da;
+    display: block;
+    position: absolute;
+    top: 9px;
+    right: 9px;
+}
+
+.search-categ .expand {
+    padding: 0 0 0 10px;
+    border-right: 0;
+    border-left: 2px solid #999999;
+}
+
+.search-categ .colapse {
+    padding: 0 10px 0 0;
+}
+
+
+.inventory-wrapper .row .col-12:first-child {
+    border-right: 0;
+    border-left: 1px solid #3c3c3c;
+}
+
+.inventory-wrapper .row .col-12:last-child {
+    padding-left: 0;
+    padding-right: 40px;
+}
+
+.Listing-cats-page .products-wrapper .product-box .data p {
+    direction: ltr;
+}
+
+.Listing-cats-page .products-wrapper .product-box .data p span:nth-child(2) i{
+    transform: rotate(180deg);
+    display: block;
+}
+
+
+.product-modal .content .data li label {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.product-modal .modal_header .close {
+    left: 20px;
+    right: auto;
+}
+
+.product-modal .modal_header h5 {
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.sell-steps-page .sell-steps .step-box .circle{
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.sell-steps-page .product-info .data li label {
+    padding-right: 0px;
+    padding-left: 20px;
+}
+
+.sell-steps-page .offer-details .field .choices .radio-box {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.sell-steps-page .final-details a {
+    float: left;
+}
